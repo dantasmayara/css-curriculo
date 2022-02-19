@@ -1,25 +1,13 @@
-/*
-importando as fontes do google
-*/
-
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@600&display=swap");
 
-
-/*
-variaveis no css
-*/
 :root {
   --header-height: 3rem;
-
-  /*========== Colors ==========*/
   --title-color: #3f3a3a;
   --text-color: #403a3a;
   --text-color-light: #707070;
   --container-color: #fafafa;
   --container-color-alt: #f0efef;
   --body-color: #fcfcfc;
-
-  /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -27,22 +15,15 @@ variaveis no css
   --normal-font-size: 0.938rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
-
-  /*========== Font weight ==========*/
   --font-medium: 500;
   --font-semi-bold: 600;
-
-  /*========== Margin ==========*/
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
-
-  /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
 
-/*BASE*/
 *,
 ::before,
 ::after {
@@ -108,8 +89,6 @@ img {
   margin-bottom: var(--mb-3);
 }
 
-/*LAYOUT*/
-
 .bd-container {
   max-width: 968px;
   width: calc(100% - 3rem);
@@ -151,9 +130,7 @@ img {
   cursor: pointer;
 }
 
-
 .nav__list {
-
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 2rem;
@@ -176,9 +153,6 @@ img {
   margin-bottom: var(--mb-1);
 }
 
-/*MEDIA QUERIE QUE CONFORME O TAMANHO DA 
-TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
-
 @media screen and (max-width: 968px) {
   .nav__menu {
     position: fixed;
@@ -192,7 +166,6 @@ TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
     z-index: var(--z-fixed);
     transition: 0.3s;
   }
-  
 }
 
 .home { 
@@ -240,7 +213,6 @@ TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
   margin-right: 0.25rem;
 }
 
-/*SOCIAL*/
 .social__container { 
   grid-template-columns: max-content;
   gap: 1rem;
@@ -264,7 +236,6 @@ TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
   text-indent: 1.5rem;
 }
 
-/*EDUCATION and EXPERIENCE*/
 .education__content,
 .experience__content {
   display: flex;
@@ -309,7 +280,6 @@ TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
   text-align: justify;
 }
 
-
 .experience__company,
 .education__studies {
   font-size: var(--small-font-size);
@@ -320,16 +290,8 @@ TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
   font-size: var(--small-font-size);
 }
 
-/*FIM SOCIAL AND EXPERIENCE*/
-
-/* skills */
 .skills__content { 
   grid-template-columns:  repeat(2,1fr);
-  /*display: flex;
-  column-count: 2;
-  para que reflita o espaçamento de 1frame 
-  estilizar a ul e li  
-  */
   gap:0;
 }
 
@@ -348,16 +310,8 @@ TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
   margin-right: 0.75rem;
 }
 
-/* fim skills*/ 
-
-/* language */
 .language__content { 
   grid-template-columns:  repeat(2,1fr);
-  /*display: flex;
-  column-count: 2;
-  para que reflita o espaçamento de 1frame 
-  estilizar a ul e li  
-  */
   gap:0;
 }
 
@@ -376,10 +330,6 @@ TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
   margin-right: 0.75rem;
 }
 
-/* fim language*/ 
-
-/*CERTIFICATES*/
-
 .certificate__title { 
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
@@ -389,8 +339,6 @@ TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
   text-align: justify;
   text-indent: 1.5rem;
 }
-
-/*INTERESTS*/
 
 .interests__container {
   grid-template-columns: repeat(3, 1fr);
@@ -413,9 +361,6 @@ TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
   text-align: center;
 }
 
-/*SCROLL*/
-
-
 .scrolltop {
   position: fixed;
   right: 1rem;
@@ -436,11 +381,6 @@ TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
   color: fuchsia
 }
 
-
-
-
-
-/*ESTILISANDO OS RESUMOS ESQUERDA E DIREITA */
 @media screen and (min-width: 968px) {
   body { 
     margin: 3rem 0;
@@ -486,5 +426,4 @@ TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
     grid-template-columns: repeat(4, max-content);
     column-gap: 3.5rem;
   }
-
 }
