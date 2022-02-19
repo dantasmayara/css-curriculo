@@ -233,6 +233,7 @@ img {
 
 .profile__description {
   text-align: justify;
+  text-indent: 1.5rem;
 }
 
 .education__content,
