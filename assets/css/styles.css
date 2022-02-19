@@ -378,7 +378,7 @@ img {
 
 .scrolltop__icon {
   font-size: 20px;
-  color: fuchsia
+  color: rgb(0, 0, 0)
 }
 
 @media screen and (min-width: 968px) {
@@ -405,7 +405,7 @@ img {
   }
     
   .resume__left { 
-    background-color: rgba(235, 235, 226, 0.76)
+    background-color: rgba(5, 0, 0, 0.301)
   }
   
   .resume__left, 
