@@ -350,6 +350,34 @@ TELA A SER VISUALIZADA VAI SENDO ALTERADA*/
 
 /* fim skills*/ 
 
+/* language */
+.language__content { 
+  grid-template-columns:  repeat(2,1fr);
+  /*display: flex;
+  column-count: 2;
+  para que reflita o espaçamento de 1frame 
+  estilizar a ul e li  
+  */
+  gap:0;
+}
+
+.language__name { 
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-3);
+}
+
+.language__circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+/* fim language*/ 
+
 /*CERTIFICATES*/
 
 .certificate__title { 
