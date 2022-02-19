@@ -231,9 +231,8 @@ img {
   margin-right: 0.25rem;
 }
 
-.profile__description { 
-  text-align: center;   
-  text-indent: 1.5rem;
+.profile__description {
+  text-align: justify;
 }
 
 .education__content,
