@@ -213,6 +213,9 @@ img {
   margin-right: 0.25rem;
 }
 
+.education__container,
+.skills__container,
+.language__container,
 .social__container { 
   grid-template-columns: max-content;
   gap: 1rem;
@@ -271,6 +274,7 @@ img {
 .experience__data {
   gap: 0.5rem;
 }
+
 
 .education__title,
 .experience__title {
