@@ -266,6 +266,7 @@ img {
   transform: translate(7px,0);
 }
 
+.certificate__data,
 .education__data,
 .experience__data {
   gap: 0.5rem;
